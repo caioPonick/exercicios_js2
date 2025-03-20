@@ -54,3 +54,5 @@ verificarTamanho(prompt("Digite uma frase: "));
 */
 
 ///ex016
+let frutas = ["banana", "maçã", "manga", "melão", "uva"];
+console.log(frutas[2]);

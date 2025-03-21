@@ -35,7 +35,7 @@ console.log(soma);
 ///ex014
 /*
 function substituirPalavra(str){
-    console.log(str.replace("azul", "vermelho"));
+    console.log(str.replace(/azul/g, "vermelho"));
 }
 substituirPalavra(prompt("Digite uma frase com azul: "));
 */

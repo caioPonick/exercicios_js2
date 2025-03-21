@@ -54,5 +54,29 @@ verificarTamanho(prompt("Digite uma frase: "));
 */
 
 ///ex016
+/*
 let frutas = ["banana", "maçã", "manga", "melão", "uva"];
 console.log(frutas[2]);
+*/
+
+///ex017
+/*
+function saudacao(nome, mensagem="Bem-vindo(a) "){
+    console.log(mensagem + nome + "!");
+}
+saudacao(prompt("Qual o seu nome: "));
+*/
+
+///ex018
+/*
+function verificarAprovacao(nota) {
+    if (nota<6){
+        console.log("Você foi reprovado!");
+    } else { 
+        console.log("Você foi aprovado!");
+    }
+}
+verificarAprovacao(prompt("Qual foi sua nota?"));
+*/
+
+///ex019

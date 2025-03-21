@@ -108,6 +108,14 @@ contarVogais(prompt("Digite uma palavra: "));
 */
 
 ///ex021
+/*
+function somarArray(num){
+    let sum = [1, 2, 3].reduce((partialSum, a) => partialSum + a, 0);
+    console.log(sum);
+}
+
+somarArray([1, 2, 3]);
+*/
 
 ///ex022
 /*

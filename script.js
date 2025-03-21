@@ -137,3 +137,12 @@ function capitalizarLetras(str){
 let frase = prompt("Digite uma frase/palavra: ");
 capitalizarLetras(frase);
 */
+
+///ex025
+/*
+function anoBissexto(ano) {
+    return console.log(ano % 4 === 0);
+}
+let frase = prompt("Digite um ano: ");
+anoBissexto(frase);
+*/

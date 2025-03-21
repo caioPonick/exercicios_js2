@@ -91,11 +91,12 @@ for(let n = 0; n <= 30; n++){
 */
 
 ///ex020
-/*
+/* metodo 1
 function contarVogais(str) {
     let numVogais = 0;
 
     let string = str.toString();
+    string = str.toLowerCase();
 
     for (let i = 0; i<= string.length; i++) {
         if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u"){
@@ -105,6 +106,23 @@ function contarVogais(str) {
     console.log("Tem " + numVogais + " vogais na sua palavra!");
 }
 contarVogais(prompt("Digite uma palavra: "));
+*/
+
+/* metodo 2 
+let palavra = prompt("Digite a palavra: ");
+
+function contarVogais(palavra) {
+    const vogais = "aeiouAEIOU";
+    let contador = 0;
+    for (let letra of palavra) {
+        if(vogais.includes(letra)){
+            contador++
+        }
+    }
+    console.log(contador)
+}
+
+contarVogais(palavra);
 */
 
 ///ex021

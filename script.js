@@ -80,6 +80,7 @@ verificarAprovacao(prompt("Qual foi sua nota?"));
 */
 
 ///ex019
+/*
 for(let n = 0; n <= 30; n++){
     if (n % 2 === 0) {
         console.log(n + " é um número par!");
@@ -87,3 +88,22 @@ for(let n = 0; n <= 30; n++){
         console.log(n + " é um número ímpar!");
     }
 }
+*/
+
+///ex020
+/*
+function contarVogais(str) {
+    let numVogais = 0;
+
+    let string = str.toString();
+
+    for (let i = 0; i<= string.length; i++) {
+        if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u"){
+            numVogais += 1;
+        }
+    }
+    console.log("Tem " + numVogais + " vogais na sua palavra!");
+}
+contarVogais(prompt("Digite uma palavra: "));
+*/
+

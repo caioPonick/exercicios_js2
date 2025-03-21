@@ -107,3 +107,33 @@ function contarVogais(str) {
 contarVogais(prompt("Digite uma palavra: "));
 */
 
+///ex021
+
+///ex022
+/*
+function dobrarNumeros(num){
+    console.log("O dobro desse número é " + num*2);
+}
+dobrarNumeros(prompt("Digite um número: "));
+*/
+
+///ex023
+/*
+let n = 2
+while(n <= 20){
+    if(n%2===0){
+        console.log(n);
+    }    
+    n++;
+}
+*/
+
+///ex024 
+/*
+function capitalizarLetras(str){
+    let string = str.toString();
+    console.log(string.charAt(0).toUpperCase() + string.slice(1));
+}
+let frase = prompt("Digite uma frase/palavra: ");
+capitalizarLetras(frase);
+*/
